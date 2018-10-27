@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=PrintStats
+comment0.text=\r\n\ PrintStats\ contains\ methods\ that\ print\ out\ results\ \r\n\ of\ the\ conjecture\ by\ extracting\ data\ from\ the\ assessor\ \r\n\ and\ mutator\ methods\ located\ in\ the\ class\ C.\r\n\ \r\n\ This\ class\ is\ simply\ a\ write-output\ type\ of\ class\r\n\ with\ one\ assessor\ method\ to\ determine\ if\ the\ user\r\n\ would\ like\ to\ continue\ with\ the\ program.\r\n\r\n\ @author\ (Krystle\ S\ Levin)\r\n\ @version\ (December\ 8th\ 2017)\r\n
+comment1.params=
+comment1.target=void\ conjectureDefinition()
+comment2.params=
+comment2.target=void\ newConjectureTest()
+comment3.params=
+comment3.target=void\ selectedNum()
+comment4.params=
+comment4.target=void\ conjectureModifications()
+comment5.params=
+comment5.target=void\ pathway()
+comment6.params=
+comment6.target=java.lang.String\ getAnswer()
+comment7.params=
+comment7.target=boolean\ anotherConjecture()
+numComments=8

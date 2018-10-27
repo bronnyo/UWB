@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=LevinKrystle_HW_Loops_Files
+comment0.text=\r\n\ This\ program\ imports\ a\ file\ "courseData.txt"\r\n\ It\ then\ sorts\ the\ data\ into\ catagories\ per\ class\r\n\ the\ program\ also\ computes\:\r\n\ Weighted\ Average\ per\ student,\ the\ Average\ for\ the\ class\r\n\ and\ determines\ if\ each\ student\ passes\ or\ fails.\r\n\ \r\n\ The\ program\ is\ also\ functional\ for\r\n\ any\ size\ file\ or\ amount\ of\ data\r\n\r\n\ @author\ (Krystle\ S\ Levin)\r\n\ @version\ (November\ 1st,\ 2017)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=programWeight\ programGrade
+comment2.target=double\ testWeightForPrograms(double,\ double)
+comment3.params=midtermWeight\ midtermGrade
+comment3.target=double\ testWeightForMidterm(double,\ double)
+comment4.params=finalWeight\ finalGrade
+comment4.target=double\ testWeightForFinal(double,\ double)
+comment5.params=weightOfPrograms\ weightOfMidterm\ weightOfFinal
+comment5.target=void\ testFinalGrade(double,\ double,\ double)
+numComments=6

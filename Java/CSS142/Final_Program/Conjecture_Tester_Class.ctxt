@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Conjecture_Tester_Class
+comment0.text=\r\n\ The\ following\ class\ was\ made\ soley\ to\ check\r\n\ the\ accuracy\ and\ validity\ of\ my\ programmed\r\n\ conjecture\ sequence\ with\ various\ int\ values\r\n\ in\ which\ the\ conjecture\ sequence\ is\ known\r\n\ or\ easily\ deduced.\r\n\r\n\ @author\ (Krystle\ S\ Levin)\r\n\ @version\ (December\ 8th,\ 2017)\r\n
+comment1.params=
+comment1.target=void\ test()
+comment2.params=
+comment2.target=void\ vSpace()
+comment3.params=original
+comment3.target=void\ Stats(int)
+numComments=4

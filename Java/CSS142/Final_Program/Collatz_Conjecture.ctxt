@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Collatz_Conjecture
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Collatz_Conjecture\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Collatz_Conjecture()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Collatz_Conjecture\r\n
+comment2.params=
+comment2.target=int[][]\ setConjectureArray()
+comment3.params=number
+comment3.target=java.lang.String\ powerToString(int)
+numComments=4

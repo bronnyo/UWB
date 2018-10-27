@@ -1,0 +1,10 @@
+Grade My Program On:
+1. Methods
+2. Looping with Repetition Control Structures
+3. Branching with Selection Control Structures
+4. Multiple Classes
+5. Class Design
+6. Variable Tracing and Testing
+
+
+Thanks, Krystle S Levin.

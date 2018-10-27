@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=ConjectureDriver
+comment0.text=\r\n\ ConjectureDriver\ is\ a\ class\ that\ contains\ the\ main\ method.\r\n\ Here,\ the\ order\ of\ what\ is\ to\ be\ printed\ is\ specified.\r\n\ Moreover,\ the\ commands\ lie\ within\ a\ loop\ that\ allows\ \r\n\ the\ user\ to\ repeat\ the\ program\ as\ many\ times\ as\ he\ or\ \r\n\ she\ desires.\r\n\ \r\n\ ConjectureDriver\ calls\ upon\ the\ class\ Print\ Stats\ to\ print\r\n\ data\ that\ has\ been\ collection\ in\ the\ class\ CalcStas.\r\n\r\n\ @author\ (Krystle\ S\ Levin)\r\n\ @version\ (December\ 8th,\ 2017)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
