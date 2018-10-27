@@ -1,0 +1,32 @@
+import java.util.Scanner;
+import java.io.*;
+/**
+ * Write a description of class LevinKrystle_FractionsV1 here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class LevinKrystle_FractionsV1
+{
+    public static void main(String[] args){
+        Scanner inputStream= null;
+        String[][] fileFractions=new String[50][2];
+        
+        try{
+            inputStream= new Scanner(new FileInputStream ("fractions.txt")); 
+            int count=0;
+            while(inputStream.hasNextLine()){
+                String newFraction=inputStream.nextLine();
+                String[] splitFraction=newFraction.split("/");
+                fileFractions[count][0]=splitFraction[0];
+                fileFractions[count][1]=splitFraction[1];
+                count++;
+            }
+        }
+        catch(FileNotFoundException e){
+            System.out.println("File not found");
+            System.exit(0);
+        }
+    }
+    
+}

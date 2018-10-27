@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=FirstDraft
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ LevinKrystle_FractionsV1\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=array\ decimals\ size
+comment2.target=void\ findCommon(int[][],\ double[],\ int)
+comment3.params=numerator\ denominator\ decimal
+comment3.target=void\ testPrint(int,\ int,\ double)
+numComments=4

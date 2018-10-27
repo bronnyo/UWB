@@ -1,0 +1,127 @@
+import java.util.*;
+import java. io.*;
+/**
+ * Questions:
+ 1. Can you complete this without using arrays? 
+ *  What is the least number of variables you can use to solve this problem?
+ A. Essentially you could complete this this without the use of arrays, for simplicity
+    of this task you would have to use a class otherwise it would be quite stenuous. 
+    For my program, 4, numerator, denominator, decimal value, and frequency.
+  
+ 2. Can you use just one array to solve this? What would the data type be of that array?
+ A: I would have to say an array of type double, once created, and sorted you could filter
+    back through the file to find the assiciated fractions and frequency.
+ * 
+ 3. What does it mean to make a class so another class is inside (or part of) the first class, 
+ * so that it is composed of other data types? What does "composition" mean in that case?  
+ * How is it done?
+ A: Creating an inner class essentially supports the outclass in such a way that the inner class
+    functions are specific to methods of a certain type of data. Moreover the innerclass allowes 
+    the outerclass to be more self contained, especially if the class definition is initially very 
+    short. the composition of these refers to the encapsulation of the data. the best way to do this
+    is to mark them as private.
+ * 
+ 4. What are some solutions to the reduction problem other than Euclid's GCD algorithm?
+ A: you could create a decimal value and then send it into a for loop to muliply it by i,
+   for every i > 1 until an integer is reached and then create the fraction such that
+   result+"/"+i.
+ *  
+ * Program Overview:
+ * Reads file containing a list of fractions 
+ * of which are read in as string and then 
+ * converted to variables of the types int. 
+ * 
+ * The fractions are then converted to type double
+ * in a new array, of which is used to determine
+ * the frequency of each fraction thereof.
+ * 
+ * the resulting fractions and their frequency are 
+ * then displayed to the terminal window for the
+ * user to analyze.
+ * 
+ * @author (Krystle S Levin)
+ * @version (January 11th, 2018)
+ */
+public class LevinKrystle_FractionsV1
+{
+    public static void main(String[] args){ 
+        Scanner inputStream= null;
+        
+        int[][] fileFractions=new int[50][2];
+        double[] decimalTemp=new double[50];
+        int count=0;
+        try{
+            inputStream= new Scanner(new FileInputStream ("fractions.txt")); 
+            while(inputStream.hasNextLine()){
+                String newFraction=inputStream.nextLine();
+                String[] splitFraction=newFraction.split("/");
+                
+                fileFractions[count][0]=Integer.parseInt(splitFraction[0]);
+                fileFractions[count][1]=Integer.parseInt(splitFraction[1]);
+                
+                decimalTemp[count]=((1.000*fileFractions[count][0])/(1.000*fileFractions[count][1]));
+                count++;
+            }
+        }
+        catch(FileNotFoundException e){
+            System.out.println("File not found");
+            System.exit(0);
+        }
+        compareAndPrint(fileFractions, decimalFrequency(decimalTemp, count));
+    }
+    /*
+     * decimalFrequency takes in a 1 dimmentional array that contains the
+     * decimal results of the recorded numerator divided by the denominator
+     * of which is then copied into a new array of the proper size that was
+     * recorded when the original decimal array was created.
+     * The new array is then sorted and checked for frequency
+     * A two dimentional array containing the decimal value and its
+     * coordinating frequency is then returned to main.
+     */
+    public static double[][] decimalFrequency(double[] decimals, int size){ 
+        double[] decimalTemp=new double[size];  //copies decimals with an accurate size
+        for(int i=0; i<decimalTemp.length; i++) //for proper sorting of the array
+            decimalTemp[i]=decimals[i];         
+        
+        Arrays.sort(decimalTemp);
+        double[][] decimalAndFrequency=new double[decimalTemp.length][2];
+        int index=0;
+        int finalSize=0;        
+        for(int i=0; i<decimalAndFrequency.length; i++){
+            if(i==0){
+                decimalAndFrequency[index][0]=decimalTemp[i];
+                decimalAndFrequency[index][1]=1.0;
+                index++;
+                finalSize++;
+            }
+            else if(decimalTemp[i]==decimalTemp[i-1])
+                decimalAndFrequency[index-1][1]+=1.0;
+            else{
+                decimalAndFrequency[index][0]=decimalTemp[i];
+                decimalAndFrequency[index][1]=1.0;
+                index++;
+                finalSize++;
+            }
+        }
+        return decimalAndFrequency;
+    }
+    /*
+     * Compare and print takes in the two dimentional array generated from the file
+     * as well as the two dimentional frequency array generated by decimalFrequency
+     * compares again the numerator/denominator to see if it equals the comparing
+     * decimal. It then prints the readable fraction and the correlating frequency
+     * as stored in the decimalfrequency array.
+     */
+    public static void compareAndPrint(int[][]fractions, double[][] decimals){
+        for(int i=0; i<decimals.length; i++){
+            for(int k=0; k<fractions.length; k++){
+                if((decimals[i][0]) == ((1.0000*fractions[k][0])/(1.0000*fractions[k][1]))){
+                    System.out.printf("%3d / %-4d ",fractions[k][0],fractions[k][1]);
+                    System.out.printf("has a frequency of %.0f %n",decimals[i][1]);
+                    break;
+                }
+            } 
+        }
+    }
+}
+    
