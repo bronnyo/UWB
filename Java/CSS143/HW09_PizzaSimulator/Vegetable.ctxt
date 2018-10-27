@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Vegetable
+comment0.text=\r\n\ Vegetable\ class\ extends\ ingredient\ and\ is\ covers\ vegetable\ ingredients\r\n\r\n\ @author\ (Krystle\ S\ Levin)\r\n\ @version\ (03/09/2018)\r\n
+comment1.params=
+comment1.target=Vegetable()
+comment2.params=description\ calories\ cost
+comment2.target=Vegetable(java.lang.String,\ int,\ Money)
+comment3.params=servings
+comment3.target=void\ changeServings(int)
+comment3.text=\r\n\ Pre-conditions\:\ the\ int\ parameter\ for\ number\ of\ servings\ is\ greater\ than\ 0\r\n\ Post-condition\:\ the\ cost\ and\ number\ of\ calories\ will\ be\ updated\ accordingly\r\n
+numComments=4

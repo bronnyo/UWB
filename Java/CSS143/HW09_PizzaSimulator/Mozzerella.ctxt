@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Mozzerella
+comment0.text=\r\n\ Mozerella\ extends\ Cheese\ and\ allocates\ price\ thereof\r\n\r\n\ @author\ (Krystle\ S\ Levin)\r\n\ @version\ (03/09/2018)\r\n
+comment1.params=
+comment1.target=Mozzerella()
+comment2.params=area
+comment2.target=Mozzerella(double)
+comment2.text=\r\n\ The\ following\ constructor\ allows\ yo\ to\ input\ the\ area\ of\ the\ pizza\r\n\ so\ that\ an\ accurate\ number\ of\ calories\ may\ be\ calculated.\r\n
+numComments=3

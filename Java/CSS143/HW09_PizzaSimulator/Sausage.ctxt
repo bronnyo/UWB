@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Sausage
+comment0.text=\r\n\ Sausage\ extends\ Meat\ and\ allocates\ price\ thereof\r\n\r\n\ @author\ (Krystle\ S\ Levin)\r\n\ @version\ (03/09/2018)\r\n
+comment1.params=
+comment1.target=Sausage()
+comment2.params=servings
+comment2.target=Sausage(int)
+comment2.text=\r\n\ The\ following\ constructor\ allows\ yo\ to\ input\ the\ area\ of\ the\ pizza\r\n\ so\ that\ an\ accurate\ number\ of\ calories\ may\ be\ calculated.\r\n
+comment3.params=
+comment3.target=java.awt.Color\ getSausageColor()
+numComments=4

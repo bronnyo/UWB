@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Alfredo
+comment0.text=\r\n\ Marinara\ extends\ base\ and\ allocates\ price\ thereof\r\n\r\n\ @author\ (Krystle\ S\ Levin)\r\n\ @version\ (03/09/2018)\r\n
+comment1.params=
+comment1.target=Alfredo()
+comment2.params=area
+comment2.target=Alfredo(double)
+comment2.text=\r\n\ The\ following\ constructor\ allows\ yo\ to\ input\ the\ area\ of\ the\ pizza\r\n\ so\ that\ an\ accurate\ number\ of\ calories\ may\ be\ calculated.\r\n
+comment3.params=
+comment3.target=java.awt.Color\ getColor()
+numComments=4

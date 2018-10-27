@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Meat
+comment0.text=\r\n\ Meat\ class\ extends\ ingredient\ and\ is\ covers\ Meat\ ingredients\r\n\r\n\ @author\ (Krystle\ S\ Levin)\r\n\ @version\ (03/09/2018)\r\n
+comment1.params=
+comment1.target=Meat()
+comment2.params=description\ calories\ cost
+comment2.target=Meat(java.lang.String,\ int,\ Money)
+comment3.params=servings
+comment3.target=void\ changeServings(int)
+comment4.params=
+comment4.target=Shape\ getShape()
+comment4.text=\r\n\ the\ following\ two\ methods\ are\ retrieval\ methods\ for\ the\ shape\ of\ the\r\n\ Mozzerella,\ as\ well\ as\ the\ color\ of\ the\ Mozzerella.\r\n
+numComments=5

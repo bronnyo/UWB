@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=PizzaException
+comment0.text=\r\n\ Pizza\ exception\ extends\ exception\ and\ delivers\ a\ message\ when\ \r\n\ an\ error\ occurs\ throughout\ the\ pizza\ simmulator\r\n\r\n\ @author\ (Krystle\ S\ Levin)\r\n\ @version\ (03/09/2018)\ \r\n
+comment1.params=
+comment1.target=PizzaException()
+comment2.params=message
+comment2.target=PizzaException(java.lang.String)
+numComments=3

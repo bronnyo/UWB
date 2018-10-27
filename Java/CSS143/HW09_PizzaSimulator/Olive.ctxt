@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Olive
+comment0.text=\r\n\ Olive\ extends\ Vegetable\ and\ allocates\ price\ thereof\r\n\r\n\ @author\ (Krystle\ S\ Levin)\r\n\ @version\ (03/09/2018)\r\n
+comment1.params=
+comment1.target=Olive()
+comment2.params=servings
+comment2.target=Olive(int)
+comment2.text=\r\n\ The\ following\ constructor\ allows\ yo\ to\ input\ the\ area\ of\ the\ pizza\r\n\ so\ that\ an\ accurate\ number\ of\ calories\ may\ be\ calculated.\r\n
+comment3.params=servings
+comment3.target=void\ changeServings(int)
+comment3.text=\r\n\ Pre-conditions\:\ the\ int\ parameter\ for\ number\ of\ servings\ is\ greater\ than\ 0\r\n\ Post-condition\:\ the\ cost\ and\ number\ of\ calories\ will\ be\ updated\ accordingly\r\n
+comment4.params=
+comment4.target=java.awt.Color\ getOliveColor()
+comment4.text=\r\n\ The\ following\ are\ "getter"\ methods\ for\ color\ and\ shape\r\n
+comment5.params=
+comment5.target=Shape\ getShape()
+numComments=6
