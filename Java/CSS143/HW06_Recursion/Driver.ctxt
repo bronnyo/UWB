@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Driver
+comment0.text=\r\n\ Driver\ simply\ uses\ main\ in\ a\ usual\ way\ such\ that\ it\ drives\ findFile.\r\n\ Caution\:\ this\ is\ a\ linear\ search\ and\ may\ take\ some\ time\ if\ your\ starting\ \r\n\ path\ is\ to\ vauge\ in\ relation\ to\ the\ the\ file\ that\ you're\ searching\ for.\r\n\ \r\n\ Also\:\ unless\ your\ name\ is\ the\ same\ as\ mine\ i\ am\ sure\ you\ will\ want\ to\r\n\ change\ the\ directory\ file\ object.\r\n\ \r\n\ @author\ (Krystle\ S\ Levin)\r\n\ @version\ (February\ 16th,\ 2018)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

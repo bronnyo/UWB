@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=LinkedList2
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ LinkedList2\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=java.util.Iterator\ iterator()
+comment2.params=
+comment2.target=LinkedList2()
+comment3.params=itemName
+comment3.target=void\ addToStart(java.lang.String)
+comment3.text=\r\n\ The\ following\ adds\ a\ node\ at\ the\ start\ of\ the\ list\ with\ specified\ data.\r\n\ The\ node\ will\ be\ the\ first\ node\ in\ the\ list.\r\n
+comment4.params=
+comment4.target=boolean\ deleteHeadNode()
+comment4.text=\r\n\ The\ following\ removes\ the\ head\ node\ and\ makes\ the\ next\ node\ in\ the\ list\ the\ new\ head.\r\n\ Will\ return\ true\ if\ there\ exists\ at\ least\ one\ node\ in\ the\ list\ and\ false\ otherwise.\r\n
+comment5.params=
+comment5.target=int\ size()
+comment5.text=\r\n\ The\ following\ returns\ the\ number\ of\ nodes\ in\ the\ list\r\n
+comment6.params=target
+comment6.target=LinkedList2.Node\ find(java.lang.String)
+comment6.text=\r\n\ Finds\ the\ first\ Node\ containing\ the\ target\ Item\ and\ returns\ a\ reference\ to\ that\ Node\r\n\ If\ target\ is\ not\ in\ the\ list\ the\ method\ returns\ null.\r\n
+comment7.params=item
+comment7.target=boolean\ contains(java.lang.String)
+comment8.params=
+comment8.target=void\ outputList()
+comment9.params=other
+comment9.target=boolean\ equals(java.lang.Object)
+comment9.text=\r\n\ The\ following\ determines\ if\ two\ lists\ are\ equal\r\n
+numComments=10

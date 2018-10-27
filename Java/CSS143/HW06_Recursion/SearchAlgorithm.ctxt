@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=SearchAlgorithm
+comment0.text=\r\n\ \r\n\ SearchAlgorithm\ \r\n\tA\ class\ used\ to\ delegate\ a\ search\ strategy\ or\ style\r\n\r\n\ @author\:\ originally\ by\ cfolsen,\ this\ version\ modified\ by\ rnash\r\n
+comment1.params=words\ wordToFind
+comment1.target=int\ search(java.lang.String[],\ java.lang.String)
+comment1.text=\r\n\ Method\ search\:\ a\ "to-be-defined"\ method\ used\ to\ implement\ a\ specific\ search\ strategy\ over\ the\ given\ array\ looking\ for\ the\ target\ word\r\n\ Precondition\:\ words\ is\ a\ nonempty\ array\ and\ target\ is\ a\ non-null\ string\r\n\ Postcondition\:\ if\ the\ target\ word\ is\ found,\ return\ its\ index.\ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ If\ not\ found,\ throw\ an\ ItemNotFoundException\ (a\ subclass\ which\ you\ have\ to\ make)\r\n\ \r\n
+comment2.params=words\ wordToFind
+comment2.target=int\ recSearch(java.lang.String[],\ java.lang.String)
+comment3.params=
+comment3.target=void\ incrementCount()
+comment4.params=
+comment4.target=int\ getCount()
+comment5.params=
+comment5.target=void\ resetCount()
+numComments=6

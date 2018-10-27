@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=LinearSearch
+comment0.text=\r\n\ Linear\ seach\ is\ a\ sub\ class\ of\ the\ class\ SearchAlgorithm\r\n\ Linear\ search\ is\ best\ implemented\ with\ a\ itterative\ approach\r\n\ Recursive\ searching\ is\ not\ advised\ when\ searching\ linearly.\r\n\r\n\ @author\ (Krystle\ S\ Levin)\r\n\ @version\ (February\ 16th,\ 2018)\r\n
+comment1.params=words\ target
+comment1.target=int\ search(java.lang.String[],\ java.lang.String)
+comment1.text=\r\n\ Method\:\ Search\ \r\n\ Pre-condition\:\ \ \ Words\ is\ a\ nonempty\ array\ of\ Strings,\ and\ target\ is\ a\ non-null\ string\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ to\ search\ for\ in\ our\ collection\ of\ strings\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ Post-Condition\:\ \ The\ method\ will\ return\ the\ position\ of\ the\ list\ in\ which\ the\ desired\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ word\ can\ be\ found,\ provided\ that\ the\ word\ exists\ in\ the\ list.\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Search\ uses\ an\ itterative\ Linear\ method\ to\ accomplish\ this\ task.\r\n
+comment2.params=words\ target
+comment2.target=int\ recSearch(java.lang.String[],\ java.lang.String)
+comment2.text=\r\n\ Method\:\ recSearch\ \r\n\ Pre-condition\:\ \ \ Words\ is\ a\ nonempty\ array\ of\ Strings\ that\ has\ a\ length\ smaller\ than\ 3000,\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ and\ target\ is\ a\ non-null\ string\ to\ search\ for\ in\ our\ collection\ of\ strings\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ Post-Condition\:\ \ The\ method\ will\ return\ the\ position\ of\ the\ list\ in\ which\ the\ desired\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ word\ can\ be\ found,\ provided\ that\ the\ word\ exists\ in\ the\ list.\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Search\ uses\ an\ recursive\ binary\ method\ to\ accomplish\ this\ task.\r\n
+comment3.params=compare\ target
+comment3.target=int\ recursion(java.lang.String,\ java.lang.String)
+comment3.text=\r\n\ Method\:\ recursion\ \r\n\ Pre-condition\:\ \ \ String\ compare\ and\ String\ target\ are\ non\ null\ in\ addition\ to\ the\ String\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ in\ which\ compare\ is\ extracted\ from\ is\ also\ non\ null.\r\n\ Post-Condition\:\ \ The\ method\ will\ return\ the\ position\ of\ the\ list\ in\ which\ the\ desired\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ word\ can\ be\ found,\ provided\ that\ the\ word\ exists\ in\ the\ list.\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Search\ uses\ an\ recursive\ linear\ method\ to\ accomplish\ this\ task.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getElement()
+comment4.text=\r\n\ Method\:\ getElement\ \r\n\ Pre-condition\:\ \ \ Temp\ has\ been\ initialized\ to\ a\ non\ empty\ array\ of\ strings\ and\ super.getCount()\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ is\ greater\ than\ 0.\r\n\ Post-Condition\:\ \ The\ method\ will\ return\ a\ single\ element\ from\ the\ String\ array\ temp\r\n
+numComments=5

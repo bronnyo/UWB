@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=ArrayListV1
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ ArrayListV1\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=ArrayListV1()
+comment2.params=
+comment2.target=int\ size()
+comment2.text=\r\n\ The\ following\ returns\ the\ number\ of\ nodes\ in\ the\ list\r\n
+comment3.params=
+comment3.target=boolean\ isEmpty()
+comment4.params=other
+comment4.target=boolean\ equals(java.lang.Object)
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ Method\:\ toString()\r\n\ pre-condition\:\ the\ list\ is\ non-empty\r\n\ postcondition\:\ a\ String\ containing\ all\ elements\ of\ the\ list\ will\ be\ returned.\r\n
+comment6.params=
+comment6.target=java.util.Iterator\ iterator()
+numComments=7

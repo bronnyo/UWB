@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Stack
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Stack\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Stack()
+comment2.params=other
+comment2.target=Stack(Stack)
+comment3.params=next
+comment3.target=void\ push(java.lang.Object)
+comment3.text=\r\n\ push\ adds\ a\ new\ element\ to\ the\ top\ of\ the\ stack\r\n
+comment4.params=
+comment4.target=java.lang.Object\ pop()
+comment4.text=\r\n\ The\ following\ method\ returns\ the\ object\ from\ the\ "top"\ of\ the\ stack\r\n\ provided\ that\ the\ stack\ is\ not\ null\r\n
+numComments=5

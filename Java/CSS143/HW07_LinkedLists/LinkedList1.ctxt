@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=LinkedList1
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ LinkedList1\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=LinkedList1()
+comment2.params=itemName\ itemCount
+comment2.target=void\ addToStart(java.lang.String,\ int)
+comment2.text=\r\n\ The\ following\ adds\ a\ node\ at\ the\ start\ of\ the\ list\ with\ specified\ data.\r\n\ The\ node\ will\ be\ the\ first\ node\ in\ the\ list.\r\n
+comment3.params=
+comment3.target=boolean\ deleteHeadNode()
+comment3.text=\r\n\ The\ following\ removes\ the\ head\ node\ and\ makes\ the\ next\ node\ in\ the\ list\ the\ new\ head.\r\n\ Will\ return\ true\ if\ there\ exists\ at\ least\ one\ node\ in\ the\ list\ and\ false\ otherwise.\r\n
+comment4.params=
+comment4.target=int\ size()
+comment4.text=\r\n\ The\ following\ returns\ the\ number\ of\ nodes\ in\ the\ list\r\n
+comment5.params=target
+comment5.target=Node1\ find(java.lang.String)
+comment5.text=\r\n\ Finds\ the\ first\ Node\ containing\ the\ target\ Item\ and\ returns\ a\ reference\ to\ that\ Node\r\n\ If\ target\ is\ not\ in\ the\ list\ the\ method\ returns\ null.\r\n
+comment6.params=item
+comment6.target=boolean\ contains(java.lang.String)
+comment7.params=
+comment7.target=void\ outputList()
+numComments=8

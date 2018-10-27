@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=ItemNotFoundException
+comment0.text=\r\n\ ItemNotFoundException\ extends\ the\ exception\ class\r\n\ and\ is\ used\ as\ a\ catch\ for\ when\ items\ are\ not\ found.\r\n\r\n\ @author\ (Krystle\ S\ Levin)\r\n\ @version\ (February\ 16th,\ 2018)\r\n
+comment1.params=
+comment1.target=ItemNotFoundException()
+comment2.params=message
+comment2.target=ItemNotFoundException(java.lang.String)
+numComments=3

@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=FindFile
+comment0.text=\r\n\ FindFile\ searches\ through\ files\ and\ directories\ to\ find\ a\ target\ file.\r\n\ Caution\:\ this\ is\ a\ linear\ search\ and\ may\ take\ some\ time\ if\ your\ starting\ \r\n\ path\ is\ to\ vauge\ in\ relation\ to\ the\ the\ file\ that\ you're\ searching\ for.\r\n\r\n\ @author\ (Krystle\ S\ Levin)\r\n\ @version\ (February\ 16th,\ 2018)\r\n
+comment1.params=
+comment1.target=FindFile()
+comment2.params=maxFiles
+comment2.target=FindFile(int)
+comment3.params=dir\ target
+comment3.target=void\ directorySearch(java.io.File,\ java.lang.String)
+comment3.text=\r\n\ Method\:\ directorySearch\r\n\ Pre-Condition\:\ File\ dir\ is\ not\ null\ and\ can\ be\ read,\ target\ file\ is\ also\ a\ non\ null\ string\r\n\ post\ condition\:\ String[]\ files\ will\ be\ updates\ with\ the\ path\ of\ each\ individual\ file\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ found\ according\ to\ the\ start\ position.\ If\ there\ is\ only\ one\ file\ under\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ starting\ directory\ then\ the\ array\ will\ only\ be\ filled\ with\ one\ String.\r\n
+comment4.params=
+comment4.target=int\ getCount()
+comment4.text=\r\n\ GetterMethods\:\r\n\ toString\:\ returns\ one\ string\ of\ al\ file\ paths\r\n\ \r\n\ getCount\:\ returns\ the\ number\ of\ files\ paths\ there\ are\ for\ the\ target\ file\r\n\ \r\n\ getFiles\:\ returns\ a\ copy\ of\ the\ array\ containing\ the\ file\ paths\ of\ the\ target\ file.\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment6.params=
+comment6.target=java.lang.String[]\ getFiles()
+numComments=7

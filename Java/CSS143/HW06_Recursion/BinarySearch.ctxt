@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=BinarySearch
+comment0.text=\r\n\ BinarySearch\ is\ a\ subclass\ of\ SearchAlgorithm.\r\n\ Binary\ search\ has\ two\ methods\ that\ either\ search\ for\ a\ target\ word\r\n\ in\ a\ non\ empty\ array\ of\ strings\ using\ either\ an\ itterative\r\n\ or\ a\ recursive\ method\r\n\r\n\ @author\ (Krystle\ S\ Levin)\r\n\ @version\ (February\ 16th,\ 2018)\r\n
+comment1.params=
+comment1.target=BinarySearch()
+comment2.params=words\ target
+comment2.target=int\ search(java.lang.String[],\ java.lang.String)
+comment2.text=\r\n\ Method\:\ Search\ \r\n\ Pre-condition\:\ \ \ Words\ is\ a\ nonempty\ array\ of\ Strings,\ and\ target\ is\ a\ non-null\ string\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ to\ search\ for\ in\ our\ collection\ of\ strings\r\n\ Post-Condition\:\ \ The\ method\ will\ return\ the\ position\ of\ the\ list\ in\ which\ the\ desired\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ word\ can\ be\ found,\ provided\ that\ the\ word\ exists\ in\ the\ list.\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Search\ uses\ an\ itterative\ binary\ method\ to\ accomplish\ this\ task.\r\n
+comment3.params=words\ target
+comment3.target=int\ recSearch(java.lang.String[],\ java.lang.String)
+comment3.text=\r\n\ Method\:\ recSearch\ \r\n\ Pre-condition\:\ \ \ Words\ is\ a\ nonempty\ array\ of\ Strings,\ and\ target\ is\ a\ non-null\ string\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ to\ search\ for\ in\ our\ collection\ of\ strings\r\n\ Post-Condition\:\ \ The\ method\ will\ return\ the\ position\ of\ the\ list\ in\ which\ the\ desired\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ word\ can\ be\ found,\ provided\ that\ the\ word\ exists\ in\ the\ list.\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Search\ uses\ an\ recursive\ binary\ method\ to\ accomplish\ this\ task.\r\n
+numComments=4

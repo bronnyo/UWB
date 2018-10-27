@@ -1,0 +1,32 @@
+#BlueJ class context
+comment0.target=ArrayList
+comment0.text=\r\n\ Array\ List\ is\ a\ call\ by\ reference\ list\r\n\ that\ is\ composed\ of\ nodes\ as\ such\ it\ has\r\n\ no\ definite\ size\ and\ grows\ as\ what\ is\ needed\r\n\ by\ the\ method\ calling\ it.\r\n\r\n\ @author\ (Krystle\ S\ Levin)\r\n\ @version\ (March\ 1st\ 2018)\r\n
+comment1.params=
+comment1.target=ArrayList()
+comment10.params=
+comment10.target=java.util.Iterator\ iterator()
+comment2.params=newItem\ index
+comment2.target=void\ insert(java.lang.Object,\ int)
+comment2.text=\r\n\ Method\:\ void\ insert(E\ item,\ int\ Index)\r\n\ Pre-condition\:\ Index\ does\ not\ exceed\ the\ size\ of\ the\ Array\ and\ newItem\ is\ not\ null\r\n\ post-condition\:\ the\ new\ Item\ wil\ be\ inserted\ at\ the\ specified\ index.\r\n
+comment3.params=index
+comment3.target=java.lang.Object\ remove(int)
+comment3.text=\r\n\ Method\:\ E\ remove(int\ index)\r\n\ pre-condition\:\ index\ is\ less\ than\ the\ size\ of\ the\ list\ and\ greater\ than\ 0.\r\n\ post-condition\:\ remove\ will\ remove\ and\ return\ the\ object\ data\ at\ the\ specified\ index\r\n
+comment4.params=target
+comment4.target=int\ indexOf(java.lang.Object)
+comment4.text=\r\n\ Method\:\ int\ indexOf(E\ target)\r\n\ Pre-Condition\:\ target\ is\ not\ null\ and\ exists\ in\ the\ list\r\n\ Post-condition\:\ indexOf\ will\ return\ the\ index\ of\ the\ target\ item,\ provided\ it\ exists\ in\ the\ list\r\n
+comment5.params=index
+comment5.target=java.lang.Object\ get(int)
+comment5.text=\r\n\ Method\:\ E\ get(int\ index)\r\n\ Pre-Condition\:\ index\ is\ less\ than\ the\ size\ of\ the\ array\ and\ greater\ than\ 0\r\n\ Post-Condition\:\ get\ will\ return\ the\ object\ data\ at\ the\ specified\ index\r\n
+comment6.params=
+comment6.target=int\ size()
+comment6.text=\r\n\ size()\ following\ returns\ the\ number\ of\ nodes\ in\ the\ list\r\n
+comment7.params=
+comment7.target=boolean\ isEmpty()
+comment7.text=\r\n\ isEmpty()\ returns\ true\ iff\ head\!\=null;\r\n
+comment8.params=other
+comment8.target=boolean\ equals(java.lang.Object)
+comment8.text=\r\n\ Method\:\ equals()\r\n\ pre-condition\:\ The\ other\ Object\ is\ of\ the\ type\ list\ and\ contains\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ same\ elements\ in\ the\ same\ order\r\n\ postcondition\:\ Wil\ return\ true\ if\ preconditions\ are\ met\ and\ false\ otherwise.\r\n
+comment9.params=
+comment9.target=java.lang.String\ toString()
+comment9.text=\r\n\ Method\:\ toString()\r\n\ pre-condition\:\ the\ list\ is\ non-empty\r\n\ postcondition\:\ a\ String\ containing\ all\ elements\ of\ the\ list\ will\ be\ returned.\r\n
+numComments=11

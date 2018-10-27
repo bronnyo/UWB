@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Node1
+comment0.text=\r\n\ This\ is\ a\ sample\ from\ the\ text\ book\ pertaining\ to\ Nodes\r\n\ \r\n\ Note\:\ this\ example\ is\ that\ of\ a\ node\ consisting\ of\ two\ froms\ of\ data\r\n\ both\ count\ and\ item\ are\ data\ of\ the\ node,\ count\ in\ no\ way\ is\ actually\ a\ counter\r\n\ and\ can\ be\ ommitted\ in\ single\ data\ linked\ lists.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Node1()
+comment2.params=newItem\ linkValue\ newCount
+comment2.target=Node1(java.lang.String,\ Node1,\ int)
+comment3.params=newItem\ newCount
+comment3.target=void\ setData(java.lang.String,\ int)
+comment4.params=
+comment4.target=int\ getCount()
+comment5.params=
+comment5.target=Node1\ getLink()
+comment6.params=
+comment6.target=java.lang.String\ getItem()
+numComments=7

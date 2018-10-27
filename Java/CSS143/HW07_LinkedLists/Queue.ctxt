@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Queue
+comment0.text=\r\n\ USE\ A\ DOUBLY\ LINKED\ LIST\ (pg\ 852)...maybe\r\n\ \r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Queue()
+comment2.params=other
+comment2.target=Queue(Queue)
+comment3.params=next
+comment3.target=void\ enqueue(java.lang.Object)
+comment3.text=\r\n\ Method\:\ enqueue(Object\ next)\r\n\ precondition\:\ next\ is\ not\ null\r\n\ posCondition\:\ next\ will\ be\ inserted\ at\ position\ 0\r\n
+comment4.params=
+comment4.target=java.lang.Object\ dequeue()
+comment4.text=\r\n\ Method\:\ dequeue()\r\n\ precondition\:\ the\ Queue\ is\ not\ null\r\n\ postCondition\:\ the\ element\ at\ the\ "back\ of\ the\ line"\ will\ be\ removed\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ from\ the\ queue\ and\ returned.\r\n
+numComments=5
