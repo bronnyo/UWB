@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=test
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ test\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=double\ minTime()
+comment3.params=
+comment3.target=double\ maxTime()
+comment4.params=
+comment4.target=double\ midTime()
+comment5.params=
+comment5.target=double\ rangeOfTimes()
+comment6.params=
+comment6.target=double\ averageTime()
+numComments=7

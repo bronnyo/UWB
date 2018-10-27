@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=RaceReport
+comment0.text=\r\n\ RaceReport\ contains\ methods\ that\ print\ out\ results\ \r\n\ of\ the\ race\ by\ making\ extracting\ data\ from\ the\ assessor\ \r\n\ and\ mutator\ methods\ located\ in\ the\ class\ Race.\r\n\ \r\n\ This\ class\ is\ simply\ a\ write-output\ type\ of\ class\r\n\ with\ one\ assessor\ method\ to\ determine\ if\ the\ user\r\n\ would\ like\ to\ continue\ with\ the\ program.\r\n\r\n\ @author\ (Krystle\ S\ Levin)\r\n\ @version\ (November\ 24th\ 2017)\r\n
+comment1.params=
+comment1.target=void\ newRace()
+comment2.params=
+comment2.target=void\ placement()
+comment3.params=
+comment3.target=void\ ties()
+comment4.params=
+comment4.target=void\ stats()
+comment5.params=
+comment5.target=java.lang.String\ getAnswer()
+comment6.params=
+comment6.target=boolean\ moreRaces()
+numComments=7

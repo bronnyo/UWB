@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=LevinKrystle_HW_Branching
+comment0.text=\r\n\ Branching\ Race\ Winners\ and\ their\ times\r\n\r\n\ @author\ (Krystle\ S.\ Levin)\r\n\ @version\ (October\ 17,\ 2017)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ lnSpace()
+comment3.params=range
+comment3.target=void\ raceRange(double)
+comment4.params=avg
+comment4.target=void\ average(double)
+comment5.params=
+comment5.target=void\ thanks()
+comment6.params=
+comment6.target=void\ introAndSort()
+comment7.params=T1\ T2\ T3\ R1\ R2\ R3
+comment7.target=void\ tieForFirst(double,\ double,\ double,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment8.params=T1\ T2\ T3\ R1\ R2\ R3
+comment8.target=void\ tieForSecond(double,\ double,\ double,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment9.params=T1\ T2\ T3\ R1\ R2\ R3
+comment9.target=void\ noTie(double,\ double,\ double,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+numComments=10

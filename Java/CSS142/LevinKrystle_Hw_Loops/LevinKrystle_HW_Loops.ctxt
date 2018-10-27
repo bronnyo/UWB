@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=LevinKrystle_HW_Loops
+comment0.text=\r\n\ This\ program\ takes\ in\ two\ DNA\ sequences\r\n\ and\ computes\ the\ best\ allignment\ between\ \r\n\ the\ the\ two\ DNA\ sequences\r\n\r\n\ @author\ (Krystle\ S\ Levin)\r\n\ @version\ (October\ 24th\ 2017)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=sequence
+comment2.target=void\ countandRatio(java.lang.String)
+comment3.params=sequence
+comment3.target=void\ complement1(java.lang.String)
+comment4.params=dna1\ dna2
+comment4.target=void\ alignmentTest(java.lang.String,\ java.lang.String)
+numComments=5

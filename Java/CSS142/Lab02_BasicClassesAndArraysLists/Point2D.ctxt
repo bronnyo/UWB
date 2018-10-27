@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Point2D
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Point2D\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Point2D()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Point2D\r\n
+comment10.params=
+comment10.target=int\ getY()
+comment2.params=x\ y
+comment2.target=Point2D(int,\ int)
+comment3.params=x
+comment3.target=void\ setX(int)
+comment4.params=y
+comment4.target=void\ setY(int)
+comment5.params=
+comment5.target=void\ resetToOrigin()
+comment6.params=x\ y
+comment6.target=void\ translate(int,\ int)
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment8.params=that
+comment8.target=boolean\ equals(Point2D)
+comment9.params=
+comment9.target=int\ getX()
+numComments=11

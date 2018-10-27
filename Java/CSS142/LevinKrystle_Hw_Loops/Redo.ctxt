@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Redo
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Redo\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=sequence
+comment2.target=void\ countandRatio(java.lang.String)
+comment3.params=sequence
+comment3.target=void\ complement1(java.lang.String)
+comment4.params=dna1\ dna2
+comment4.target=void\ alignmentTest(java.lang.String,\ java.lang.String)
+numComments=5

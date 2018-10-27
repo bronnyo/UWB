@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Lab02_Driver
+comment0.text=\r\n\ 1)\ Why\ did\ we\ do\ so\ much\ copying\ and\ pasting\ in\ our\ software\ above?\r\n\ \ \ \ \ \ to\ become\ more\ aware\ of\ the\ issues\ that\ some\ with\ doing\ so\r\n\ \ \ \ \ \ such\ as\ syntax\ errors\ and\ wrongly\ named\ methods\ within\ their\ classes\r\n\ \ \ \ \ \ \r\n(2)Are\ there\ obvious\ improvements\ that\ could\ be\ made\ here\ with\ respect\ the\ software\ \r\n\ \ \ design\ for\ Squares\ and\ Circles?\r\n\ \ \ \ \ \ The\ could\ be\ put\ into\ the\ same\ class,\ as\ essentially\ their\ class\ definitions\ \r\n\ \ \ \ \ \ are\ nearly\ identical.\r\n\ \ \ \ \ \ \r\n\ 3)What\ programming\ constructs\ were\ you\ familiar\ with,\ and\ which\ did\ you\ need\ to\ look\ up?\r\n\ \ \ \ \ \ Considering\ the\ last\ 3\ weeks\ of\ 142\ last\ quarter\ was\ all\ about\ classes,\ i\ was\ pretty\ familiar\r\n\ \ \ \ \ \ with\ all\ of\ these\ constructs\ and\ didnt\ have\ to\ look\ up\ a\ single\ thing.\r\n\ \ \ \ \ \ \r\n\ 4)\ Assume\ we\ used\ a\ separate\ array\ for\ Squares\ and\ for\ Circles\ rather\ than\ one\ unifying\ Object\ array.\r\n\ \ \ \ How\ would\ this\ complicate\ the\ task\ of\ adding\ a\ new\ Shape\ (say,\ a\ Triangle)\ to\ our\ ObjectListclass?\r\n\ \ \ \ \ \ you\ would\ then\ have\ to\ go\ back\ through\ your\ program\ and\ create\ yet\ \r\n\ \ \ \ \ \ another\ array\ just\ for\ triangles.\r\n\ \ \ \r\n\ @author\ (Krystle\ S\ Levin)\r\n\ @version\ (Lab\ 02\ 1/15/2018)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ lnBreak()
+comment3.params=
+comment3.target=void\ point2Ddriver()
+comment4.params=
+comment4.target=void\ intListDriver()
+comment5.params=
+comment5.target=void\ shapesPictureDriver()
+numComments=6

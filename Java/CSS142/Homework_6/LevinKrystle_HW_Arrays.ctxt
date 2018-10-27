@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=LevinKrystle_HW_Arrays
+comment0.text=\r\n\ This\ program\ asks\ the\ user\ to\ input\ values\ for\:\r\n\ Mass,\ cross-sectional\ area,\ drag\ coefficiant,\ \r\n\ total\ time\ of\ the\ dive,\ and\ the\ desired\ time\ interval\r\n\ of\ the\ Skydiver.\ In\ addition\ to\ the\ desired\ file\r\n\ that\ the\ user\ wishes\ to\ use\ to\ store\ the\ data.\r\n\ \r\n\ The\ program\ then\ takes\ the\ user's\ input\ and\ uses\ it\r\n\ to\ compute\ the\ diver's\ velocity\ in\ respect\ to\ T.\r\n\ Once\ computed\ the\ data\ is\ then\ imported\ into\ the\ user's\r\n\ desired\ file\ and\ printed\ in\ such\ a\ way\ that\ data\ can\ \r\n\ be\ sorted\ in\ a\ csv\ or\ excel\ file.\r\n\ \r\n\ The\ program\ will\ repeat\ as\ many\ times\ as\ the\ user\ desires.\r\n\r\n\ @author\ (Krystle\ S\ Levin)\r\n\ @version\ (Novemeber\ 9th,\ 2017)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=double[]\ introAndInput()
+comment3.params=
+comment3.target=double[]\ timeArray()
+comment4.params=
+comment4.target=java.io.PrintWriter\ outputFile()
+comment5.params=variables\ time
+comment5.target=double[]\ velocity(double[],\ double[])
+comment6.params=variables\ time
+comment6.target=void\ equationTest(double[],\ double[])
+numComments=7
