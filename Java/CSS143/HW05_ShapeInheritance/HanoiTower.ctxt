@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=HanoiTower
+comment0.text=\r\n\ HanoiTower\ draws\ a\ post\ with\ either\ 3\ or\ a\ specified\ amount\ of\r\n\ rings\ to\ sit\ on\ it.\ The\ rings\ are\ then\ colored\ with\ a\ random\r\n\ color\ generator,\ of\ which\ are\ semi\ transparent\ as\ to\ veiw\ the\r\n\ post\ upon\ which\ they\ sit.\r\n\r\n\ @author\ (Krystle\ S\ Levin)\r\n\ @version\ (February\ 10th\ 2018)\r\n
+comment1.params=x\ y
+comment1.target=HanoiTower(int,\ int)
+comment2.params=x\ y\ numberOfRings
+comment2.target=HanoiTower(int,\ int,\ int)
+comment3.params=numberOfRings
+comment3.target=void\ setNumberOfRings(int)
+comment3.text=\r\n\ \ Pre-Condition\:\ the\ int\ parameter\ must\ be\ less\ than\ 16\r\n\ Post-Condition\:\ the\ number\ of\ rings\ for\ the\ tower\ will\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ be\ set\ to\ the\ specified\ parameter\ value\r\n
+comment4.params=
+comment4.target=int\ getNumberOfRings()
+comment5.params=
+comment5.target=int\ getX()
+comment6.params=
+comment6.target=int\ getY()
+comment7.params=g
+comment7.target=void\ draw(java.awt.Graphics)
+comment7.text=\r\n\ No\ pre-conditions\ other\ than\ initialization\ of\ the\ class\r\n\ Will\ draw\ a\ gray\ Hanoi\ post\ and\ then\ populate\ it\ with\r\n\ semi\ transparent\ rings\ whose\ color\ is\ randomly\ selected\r\n\ from\ the\ getRandColor\ method.\r\n
+comment8.params=
+comment8.target=java.awt.Color\ getRandColor()
+comment8.text=\r\n\ Random\ color\ generator\ for\ your\ Hanoi\ Rings\r\n\ returns\ a\ random\ color\ for\ each\ ring\r\n\ no\ preconditions\r\n
+numComments=9

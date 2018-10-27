@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Cylinder
+comment0.text=\r\n\ Cylinder\ is\ a\ child\ of\ circle\ and\ draws\ an\ orange\ \r\n\ 3D\ cylinder\ of\ specified\ height\ and\ radius,\ as\ \r\n\ well\ as\ calculating\ the\ are\ of\ the\ cylinder.\r\n\r\n\ @author\ (Krystle\ S\ Levin)\r\n\ @version\ (February\ 10th\ 2018)\r\n
+comment1.params=x\ y
+comment1.target=Cylinder(int,\ int)
+comment10.params=g
+comment10.target=void\ draw(java.awt.Graphics)
+comment10.text=\r\n\ No\ pre-conditions\ other\ than\ initialization\ of\ the\ class\r\n\ Will\ draw\ an\ orange\ Cylinder\ according\ the\ the\ specified\r\n\ height\ and\ by\ using\ the\ radius\ as\ the\ height\ of\ the\ oval\r\n\ in\ addition\ to\ using\ the\ diameter\ as\ the\ length\ of\ the\ \r\n\ oval\ to\ provide\ a\ sense\ of\ dimention\ to\ the\ 2-D\ object.\r\n
+comment2.params=x\ y\ height
+comment2.target=Cylinder(int,\ int,\ int)
+comment3.params=x\ y\ radius\ height
+comment3.target=Cylinder(int,\ int,\ int,\ int)
+comment4.params=height
+comment4.target=void\ setHeight(int)
+comment5.params=
+comment5.target=int\ getHeight()
+comment6.params=
+comment6.target=int\ getDiameter()
+comment7.params=
+comment7.target=int\ getX()
+comment8.params=
+comment8.target=int\ getY()
+comment9.params=
+comment9.target=double\ getArea()
+numComments=11

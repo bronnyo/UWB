@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=BillMoneyDateDriver
+comment0.text=\r\n\ HW3.java\:\ Simple\ driver\ to\ test\ Money,\ Date,\ and\ Bill\ classes\r\n\ @author\ Rob\ Nash,\ borrowed\ from\ cfolsen\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ \ \ \ \ main\ driver\ function\r\n\ \ \ \ \ pre\:\ \ none\r\n\ \ \ \ \ post\:\ exercises\ the\ methods\ in\ Bill,\ Money,\ and\ Date\ (not\ done)\r\n
+comment2.params=
+comment2.target=void\ importedDriver()
+comment3.params=
+comment3.target=void\ dateTester()
+comment4.params=
+comment4.target=void\ moneyTester()
+comment5.params=
+comment5.target=void\ billTester()
+numComments=6

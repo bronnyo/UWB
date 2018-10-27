@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=FractionDriver
+comment0.text=\r\n\ FractionDriver\ reads\ a\ text\ file\ containg\ an\ unknown\ number\r\n\ of\ fractions\ of\ which\ are\ split\ by\ a\ designated\ delimiter\r\n\ and\ sent\ as\ an\ int\ value\ to\ soecific\ containers\ used\ to\r\n\ both\ reduce\ the\ fraction\ and\ store\ unique\ values.\r\n\ of\ which\ are\ then\ printed\ to\ the\ Terminal\ Window.\r\n\r\n\ @author\ (Krystle\ S\ Levin)\r\n\ @version\ (January\ 18th\ 2018)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

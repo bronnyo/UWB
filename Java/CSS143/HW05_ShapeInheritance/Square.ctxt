@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Square
+comment0.text=\r\n\ Square\ is\ the\ parent\ for\ Cube\ and\ the\ child\ of\ Shape.\ \r\n\ Square\ adds\ the\ instance\ variables\ of\ height\ and\ width\r\n\ to\ this\ specific\ shape\ and\ may\ draw\ it\ accordingly\ as\ well\ as\ \r\n\ calculate\ the\ area\ of\ the\ specific\ Square.\ \r\n\r\n\ @author\ (Krystle\ S\ Levin)\r\n\ @version\ (February\ 10th\ 2018)\r\n
+comment1.params=x\ y
+comment1.target=Square(int,\ int)
+comment10.params=
+comment10.target=int\ getY()
+comment11.params=g
+comment11.target=void\ draw(java.awt.Graphics)
+comment11.text=\r\n\ No\ pre-conditions\ other\ than\ initialization\ of\ the\ class\r\n\ Will\ draw\ a\ blue\ filled\ square\ according\ the\ the\ specified\r\n\ height\ and\ width.\ Will\ also\ draw\ a\ black\ outline\ of\ the\ square.\r\n
+comment2.params=x\ y\ sides
+comment2.target=Square(int,\ int,\ int)
+comment3.params=x\ y\ height\ width
+comment3.target=Square(int,\ int,\ int,\ int)
+comment4.params=height
+comment4.target=void\ setHeight(int)
+comment5.params=width
+comment5.target=void\ setWidth(int)
+comment6.params=
+comment6.target=int\ getHeight()
+comment7.params=
+comment7.target=int\ getWidth()
+comment8.params=
+comment8.target=double\ getArea()
+comment9.params=
+comment9.target=int\ getX()
+numComments=12

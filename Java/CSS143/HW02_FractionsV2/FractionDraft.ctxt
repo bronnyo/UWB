@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=FractionDraft
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Fraction\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=FractionDraft()
+comment2.params=n\ d
+comment2.target=void\ addNew(java.lang.String,\ java.lang.String)
+comment2.text=public\ void\ addNew(int\ n,\ int\ d){\r\n\ \ \ \ \ \ \ \ numerator.add(index,\ reduce(n,d)[0]);\r\n\ \ \ \ \ \ \ \ denominator.add(index,\ reduce(n,d)[1]);\r\n\ \ \ \ \ \ \ \ frequency.add(index,\ 1);\r\n\ \ \ \ \ \ \ \ index++;\r\n}
+comment3.params=n\ d
+comment3.target=int[]\ reduce(int,\ int)
+comment4.params=n\ d
+comment4.target=boolean\ compare(int,\ int)
+comment5.params=
+comment5.target=java.util.ArrayList\ getNumerators()
+comment6.params=
+comment6.target=java.util.ArrayList\ getDenominators()
+comment7.params=
+comment7.target=java.util.ArrayList\ getFrequency()
+numComments=8

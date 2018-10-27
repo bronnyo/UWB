@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=PolyDemo
+comment0.text=\r\n\ Class\ PolyDemo\ (is\ a\ JFrame)\ and\ PolyDemoPanel\ (is\ a\ JPanel)\r\n\ \r\n\ Author\:\ Rob\ Nash\r\n\ \r\n\ Edited\ by\:\ Krystle\ S\ Levin\ 2/10/2018\r\n
+comment1.params=
+comment1.target=PolyDemo()
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3

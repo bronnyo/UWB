@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Cat
+comment0.text=\r\n\ The\ class\ Cat\ draws\ a\ Cat\ graphic\ with\ two\ eyes\r\n\ The\ cat's\ fur\ and\ eye\ color\ are\ randomly\ selected\r\n\ you\ must\ love\ your\ adopted\ cat\ regaurdless.\r\n\r\n\ @author\ (Krystle\ S\ Levin)\r\n\ @version\ (February\ 10th\ 2018)\r\n
+comment1.params=x\ y
+comment1.target=Cat(int,\ int)
+comment2.params=
+comment2.target=int\ getX()
+comment3.params=
+comment3.target=int\ getY()
+comment4.params=g
+comment4.target=void\ draw(java.awt.Graphics)
+comment4.text=\r\n\ No\ pre-conditions\ other\ than\ initialization\ of\ the\ class\r\n\ Will\ draw\ a\ Cat\ that\ is\ either\ black,\ white,\ orange,\ gray\r\n\ or\ light\ grey,\ with\ either\ yellow,\ red,\ blue\ or\ green\ eyes\r\n
+comment5.params=
+comment5.target=java.awt.Color\ getRandCatColor()
+comment5.text=\r\n\ Random\ color\ generator\ for\ your\ new\ cat\r\n\ returns\ a\ random\ color\ for\ cat\ body\r\n\ no\ preconditions\r\n
+comment6.params=
+comment6.target=java.awt.Color\ getRandEyeColor()
+comment6.text=\r\n\ Random\ color\ generator\ for\ the\ color\ of\ your\ cats\ eyes\r\n\ returns\ a\ random\ color\ for\ the\ cat\ eyes\r\n\ no\ preconditions\r\n
+numComments=7

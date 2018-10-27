@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Queue
+comment0.text=\r\n\ Queue\ generates\ a\ list\ abstact\ objects\ that\ follows\ a\ \r\n\ "First\ in\ First\ out"\ ruling\ with\ its\ listed\ objects.\r\n\ As\ such\ its\ objects\ cannot\ be\ extracted\ from\ the\r\n\ "middle"\ of\ the\ queue,\ and\ must\ wait\ to\ be\ dequeued\r\n\ until\ those\ that\ were\ queued\ before\ it\ are\ dequeued\r\n\ first.\r\n\ \r\n\r\n\ @author\ (Krystle\ S\ Levin)\r\n\ @version\ (January\ 25th\ 2018)\r\n
+comment1.params=
+comment1.target=Queue()
+comment10.params=message
+comment10.target=void\ queueException(java.lang.String)
+comment11.params=
+comment11.target=java.lang.Object[]\ getDataQueue()
+comment2.params=specifiedSize
+comment2.target=Queue(int)
+comment3.params=a
+comment3.target=void\ enqueue(java.lang.Object)
+comment4.params=
+comment4.target=java.lang.Object\ dequeue()
+comment5.params=
+comment5.target=int\ size()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment7.params=other
+comment7.target=boolean\ equals(Queue)
+comment8.params=
+comment8.target=boolean\ empty()
+comment9.params=
+comment9.target=boolean\ full()
+numComments=12

@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=FractionCounter
+comment0.text=\r\n\ FractionCounter\ takes\ in\ reduced\ fractions\r\n\ checks\ to\ see\ if\ they\ already\ exist\ in\ the\ \r\n\ existing\ array\ lists\ and\ records\ their\ \r\n\ associated\ frequencies.\r\n\r\n\ @author\ (Krystle\ S\ Levin)\r\n\ @version\ (January\ 18th\ 2018)\r\n
+comment1.params=
+comment1.target=FractionCounter()
+comment2.params=n\ d
+comment2.target=void\ addNew(int,\ int)
+comment3.params=n\ d
+comment3.target=boolean\ compare(int,\ int)
+comment4.params=
+comment4.target=java.util.ArrayList\ getNumeratorList()
+comment5.params=
+comment5.target=java.util.ArrayList\ getDenominatorList()
+comment6.params=
+comment6.target=java.util.ArrayList\ getFrequencyList()
+comment7.params=
+comment7.target=int\ getIndex()
+numComments=8
